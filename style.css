@@ -83,7 +83,7 @@ text-align: center;
 @media (max-width: 960px) {
   /* 对于屏幕小于960px的情况，这个CSS将被读取 */
   .container {
-    width: 700px;
+    width: 550px;
   }
 }
 @media (max-width: 720px) {
