@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+body {
+  background-color:#F6F6F6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #082032;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color:#334756;
+  font-size: 28px;
+  letter-spacing:1px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#BCCC9A;
+  font-size: 24px;
+  letter-spacing:2px;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  color:#334756
+}
+
+.container {
+text-align: center;
+}
+
+.card {
+  background:white;
+  padding: 50px;
+  width:550px;
+  margin: 24px auto;
+  border-radius: 2px;
+  box-shadow: 0 5px 3px rgba(0,0,0,0.1)
+}
+
+.img-circle {
+  width:160px;
+  height:160px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background:#6D8299 ;
+  color: white;
+  padding: 10px 34px;
+  border-radius:3px;
+  box-shadow: 0 5px 3px rgba(0,0,0,0.1);
+}
+
+.btn-blue:hover {
+  background: #334756;
+  color: white;
+}
+
+.list-inline{
+  list-style:none;
+  padding:0;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.social-icon{
+  font-size: 32px;
+  color:rgb(200,200,200);
+  margin: 8px 24px;
+}
+
+@media (max-width: 960px) {
+  /* 对于屏幕小于960px的情况，这个CSS将被读取 */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* 对于屏幕小于720px的情况，这个CSS将被读取 */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* 对于屏幕小于540px的情况，这个CSS将被读取 */
+  .container {
+    width: 300px;
+  }
+}
